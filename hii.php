@@ -6,6 +6,7 @@ if($method=="GET"){
 	$json=$json_decode($requestBody);
 	$text=$json->result->parameters->text;
 	//hii
+	//hii
 	switch($text){
 	case "hii":
 		$speech="hii,nice to meet you";
